@@ -1,5 +1,12 @@
 # Change log
 
+-Flow-ValidateBy-KT 2.0.0 (2020-12-09)
+--------------------------------
+
+- Replace 2-16 arity methods with vararg.
+
+- Update coroutines and Kotlin to 1.4.20.
+
 -Flow-ValidateBy-KT 1.0.0 (2020-09-18)
 --------------------------------
 
