@@ -1,5 +1,12 @@
 # Change log
 
+-Flow-ValidateBy-KT 2.1.0 (2020-12-19)
+--------------------------------
+
+- Make library pure-JVM.
+
+- Use Kotlin 1.4.21.
+
 -Flow-ValidateBy-KT 2.0.0 (2020-12-09)
 --------------------------------
 
