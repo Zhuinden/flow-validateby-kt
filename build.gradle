@@ -1,5 +1,5 @@
 buildscript {
-    ext.kotlin_version = '1.4.21'
+    ext.kotlin_version = '1.4.30'
     repositories {
         mavenCentral()
         maven { url "https://jitpack.io" }
@@ -47,7 +47,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.github.Zhuinden'
             artifactId = 'flow-validateby-kt'
-            version = '2.1.0'
+            version = '2.1.1'
 
             from components.java
             artifact sourcesJar
@@ -64,10 +64,14 @@ compileKotlin {
     kotlinOptions {
         jvmTarget = "1.6"
     }
+    
+    kotlinOptions.moduleName = "com.zhuinden.flowvalidatebykt"
 }
 
 compileTestKotlin {
     kotlinOptions {
         jvmTarget = "1.6"
     }
+    
+    kotlinOptions.moduleName = "com.zhuinden.flowvalidatebykt"
 }
